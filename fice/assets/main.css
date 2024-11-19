@@ -1,0 +1,78 @@
+.topo{
+    display: flex;
+}
+.lo{
+    max-width: 40%;
+    height: 10%;
+}
+.XV{
+    
+    width: 354px;
+    height: 120px;
+}
+.tricampeao{
+    margin-left: 5vw;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 95vw solid green; 
+}   
+.tricampeao2{
+    margin-top: 1vh;
+    margin-left: 10vw;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 90vw solid rgb(0, 88, 0); 
+
+}
+.tricampeao3{
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 95vw solid green; 
+}   
+.tricampeao4{
+    margin-top: 5px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 90vw solid rgb(0, 88, 0); 
+
+}
+.container{
+    display: flex;
+}
+.coluna{
+    margin: 10px;
+    width: 50vw;
+}
+h1{
+text-align: center;
+    
+}
+h2{
+text-align: center;}
+h3{
+    text-align: center;
+    
+}
+p{
+    text-align: justify;
+}
+.Pcentralizado{
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .coluna {
+        width: 100%;
+    
+    }
+    .container{
+        display: block;
+    }
+}
